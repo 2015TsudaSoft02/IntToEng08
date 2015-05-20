@@ -1,6 +1,7 @@
 package inttoeng;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class IntToEngTest {
@@ -113,5 +114,12 @@ public class IntToEngTest {
 			assertEquals(actual90,expected90);
 			assertEquals(actual98,expected98);
 			assertEquals(actual99,expected99);
+		}
+		@Test
+		public void test1(){
+			IntToEng ite= new IntToEng();
+			String expected10003="tenthousandthree";
+			String actual10003=ite.translateEng(10003);
+			assertEquals(actual10003,expected10003);
 		}
 	}
