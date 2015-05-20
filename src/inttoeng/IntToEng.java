@@ -284,6 +284,6 @@ public class IntToEng {
     		num=eNum18[num1000a-1]+eNum19[num1000a-1]+eNum14[num100a-1]+eNum15[num10a-1]+eNum16[num1a];
     		return num;
     	}
-        return "";
+        return "onehundredthousand";
     }
 }
