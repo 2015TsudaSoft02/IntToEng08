@@ -118,8 +118,22 @@ public class IntToEngTest {
 		@Test
 		public void test1(){
 			IntToEng ite= new IntToEng();
-			String expected10003="tenthousandthree";
-			String actual10003=ite.translateEng(10003);
-			assertEquals(actual10003,expected10003);
+			String expected1032="onethousandthirtytwo";
+			String actual1032=ite.translateEng(1032);
+			assertEquals(actual1032,expected1032);
+		}
+		@Test
+		public void test2(){
+			IntToEng ite= new IntToEng();
+			String expected12123="twelvethousandonehundredtwentythree";
+			String actual12123=ite.translateEng(12123);
+			assertEquals(actual12123,expected12123);
+		}
+		@Test
+		public void test3(){
+			IntToEng ite= new IntToEng();
+			String expected100000="onehundredthousand";
+			String actual100000=ite.translateEng(100000);
+			assertEquals(actual100000,expected100000);
 		}
 	}
