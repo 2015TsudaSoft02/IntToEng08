@@ -116,11 +116,18 @@ public class IntToEngTest {
 			assertEquals(actual99,expected99);
 		}
 		@Test
-		public void test1(){
+		public void test0(){
 			IntToEng ite= new IntToEng();
 			String expected1032="onethousandthirtytwo";
 			String actual1032=ite.translateEng(1032);
 			assertEquals(actual1032,expected1032);
+		}
+		@Test
+		public void test1(){
+			IntToEng ite= new IntToEng();
+			String expected10032="tenthousandthirtytwo";
+			String actual10032=ite.translateEng(10032);
+			assertEquals(actual10032,expected10032);
 		}
 		@Test
 		public void test2(){

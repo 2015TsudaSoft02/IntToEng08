@@ -48,7 +48,7 @@ public class IntToEng {
     	
     	//1000^9999までの1000の位
     	String[] eNum8={"onethousand","twothousand","threethousand","fourthousand",
-    			"fivethousand","sixthousand","seventhousand","eightthousand","ninethoand"};
+    			"fivethousand","sixthousand","seventhousand","eighthousand","ninethoand"};
     	
     	//1000^9999までの100の位
     	String[] eNum9={"onehundred", "twohundred", "threehundred", "fourhundred",
